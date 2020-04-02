@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TP4_Accessibilite_Classes_Abstraites_Interfaces
+Bundle-SymbolicName: TP4_Accessibilite_Classes_Abstraites_Interfaces
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TP4_Accessibilite_Classes_Abstraites_Interfaces
+Bundle-RequiredExecutionEnvironment: JavaSE-13

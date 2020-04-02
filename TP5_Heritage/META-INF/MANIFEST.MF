@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TP5_Heritage
+Bundle-SymbolicName: TP5_Heritage
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TP5_Heritage
+Bundle-RequiredExecutionEnvironment: JavaSE-13
