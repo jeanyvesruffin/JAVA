@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TP13_RMIClient
+Bundle-SymbolicName: TP13_RMIClient
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TP13_RMIClient
+Bundle-RequiredExecutionEnvironment: JavaSE-13
