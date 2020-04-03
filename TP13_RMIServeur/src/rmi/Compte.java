@@ -6,6 +6,10 @@ import java.io.Serializable;
 // DOIVENT ETRE SERIALIZABLE
 public class Compte implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int code;
 	private double solde;
 	public Compte(int code, double solde) {

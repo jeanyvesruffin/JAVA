@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TP14_MiddleWareRMI
+Bundle-SymbolicName: TP14_MiddleWareRMI
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TP14_MiddleWareRMI
+Bundle-RequiredExecutionEnvironment: JavaSE-13
