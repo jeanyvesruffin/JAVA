@@ -1,5 +1,6 @@
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.net.*;
 
@@ -19,6 +20,11 @@ public class Serveur {
 			// Declaration d'une socket
 			Socket socket = serverSocket.accept();
 			// on declare input et output qui seront les objets entrant et sortants
+			// se dis STEAM DE COMMUNICATION
+			// ATTENTION Steam = echange des octets
+			// ATENTION SI result > 255 CA BUG
+			// à la difference inputStreamReader et bufferedStream permettra de lire un caractere (32 bits soit 4 octet)
+			// se dis STREAM DE TRAITEMENT
 			InputStream inputStream = socket.getInputStream();
 			OutputStream outputStream = socket.getOutputStream();
 			// attendre l'ordre emis par l'utilisateur
@@ -32,8 +38,16 @@ public class Serveur {
 			// socket.close();
 			// on execute l'application à l'aide de lignes de commandes
 			// 1er le fichier serveur.java
-			// aller ds propriete du projet serveur
-			// copier coller la location sur la lig,ne de commande
+			// aller ds propriete du projet serveur copier la location
+			// ouvrir cmd du projet serveur dans bin
+			// java Serveur
+			// ==> retour j'attend une connexion
+			// passe ensuite sur le client
+			// EXEMPLE D'ENVOI D'OBJET VERS LE CLIENT
+			// SERIALISATION
+			// ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
+			// Voiture voiture1 = new Voiture("V212", 50);
+			// objectOutputStream.writeObject(voiture1);
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
