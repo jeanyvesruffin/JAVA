@@ -12,6 +12,8 @@ public class ServeurRmi {
 			// creation l'objet distant
 			BanqueServiceImpl banqueServiceImpl = new BanqueServiceImpl();
 			System.out.println(banqueServiceImpl.toString());
+			// RETOURNE:
+			// BanqueServiceImpl[UnicastServerRef [liveRef: [endpoint:[192.168.1.32:59635](local),objID:[6778a6:171408c4e29:-7fff, -4505065290926693379]]]]			
 			// l'annuaire doit etre demarre/ initilise:
 			LocateRegistry.createRegistry(1099);			
 			// Publier la reference de l'objet distant
