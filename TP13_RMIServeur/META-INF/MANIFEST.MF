@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TP13_RMIServeur
+Bundle-SymbolicName: TP13_RMIServeur
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TP13_RMIServeur
+Bundle-RequiredExecutionEnvironment: JavaSE-13
