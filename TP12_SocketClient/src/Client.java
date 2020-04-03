@@ -1,6 +1,5 @@
 
 import java.io.InputStream;
-import java.io.ObjectInputStream;
 import java.io.OutputStream;
 import java.net.*;
 import java.util.Scanner;
@@ -46,6 +45,8 @@ public class Client {
 			// DESERIALISATION
 			// ObjectInputStream objectInputStream = new ObjectInputStream(inputStream);
 			// Voiture voiture1 = (Voiture)objectInputStream.readObject();
+			socket.close();
+			clavier.close();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

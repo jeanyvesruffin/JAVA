@@ -1,6 +1,5 @@
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.net.*;
 
@@ -48,7 +47,7 @@ public class Serveur {
 			// ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
 			// Voiture voiture1 = new Voiture("V212", 50);
 			// objectOutputStream.writeObject(voiture1);
-			
+			serverSocket.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

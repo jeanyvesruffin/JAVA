@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TP12_SocketServeurMultiThread
+Bundle-SymbolicName: TP12_SocketServeurMultiThread
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TP12_SocketServeurMultiThread
+Bundle-RequiredExecutionEnvironment: JavaSE-13
