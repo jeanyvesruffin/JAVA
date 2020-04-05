@@ -28,10 +28,21 @@ public class ClientRMI {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
+}
 // methode d'ajout de l'interface remote + la classe Compte
 // on les genere a l'aide du .jar export --> java -- > jarFile
 // on le save par exemple dans le dossier du bureau on le decompresse
-// fichier .jar puis on le copie/colle dans le client et enfin propriete librairy et add 	
-}
+// fichier .jar puis on le copie/colle dans le client et enfin propriete librairy et add 
+// au CLASSPATH
+// Pour demarrer le client en ligne de commande une erreur survient car ne detect pas le class path
+// Pour ce faire il faut faire (-cp pour class path) + ".;" ==> pour ajouter le chemin tous les autres chemin:
+// java -cp .;../proxyClient.jar ClientRMI
+// l'autre sollution pour gerer les .classPath et de l'ajouter dans les variables d'environnement des proprietes de 
+// l'ordinateur on donne comme nom de variable d'environnement
+// classpath
+// et comme valeur le chemin ici
+// .;D:\WORK\Eclipse\SandBox\JAVA\TP14_MiddleWareRMIClient\proxyClient.jar
+// ultime facon avec un fichier .bat (client.bat) open --> with Editor
+// Puis on execute le fichier .bat en ligne de commande à partir du chemin 
+// D:\WORK\Eclipse\SandBox\JAVA\TP14_MiddleWareRMIClient\bin>
