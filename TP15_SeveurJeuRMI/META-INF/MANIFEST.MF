@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TP15_SeveurJeuRMI
+Bundle-SymbolicName: TP15_SeveurJeuRMI
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TP15_SeveurJeuRMI
+Bundle-RequiredExecutionEnvironment: JavaSE-13
