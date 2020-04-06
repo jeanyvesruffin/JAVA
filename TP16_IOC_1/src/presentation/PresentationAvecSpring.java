@@ -20,9 +20,11 @@ public class PresentationAvecSpring {
 			</bean> 
 		 */
 		// on demande de spring de lire le fichier 
-		ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext(new String[] {"applicationContext.xml"}); 
+		ClassPathXmlApplicationContext context =
+				new ClassPathXmlApplicationContext 
+				(new String[] {"/applicationContext.xml"}); 
 		// on demande à spring ("donne moi un objet metier)
-		IMetier metier = (IMetier) applicationContext.getBean("metier");
+		IMetier metier = (IMetier) context.getBean("metier");
 		System.out.println(metier.calcul());
 		
 	}
