@@ -23,16 +23,13 @@ public class ClientJeu {
 				}
 				String reponse = stub.jouer(nombreSaisi);
 				System.out.println(reponse);
-
-
 			}
-
+			clavier.close();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
-
 	}
-
+	// on doit de nouveau copier/ coller le fichier jndi.properties == > contient la config de l'annunaire
+	// ou bien celui-ci est dans le .jar
 }
