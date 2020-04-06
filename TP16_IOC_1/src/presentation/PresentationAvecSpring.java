@@ -28,7 +28,7 @@ public class PresentationAvecSpring {
 		System.out.println(metier.calcul());
 		// pour modifier l'implementation il suffis de remplacer l'implementation
 		
-		
+		context.close();
 	}
 
 }
