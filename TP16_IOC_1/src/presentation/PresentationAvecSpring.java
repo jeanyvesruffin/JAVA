@@ -22,10 +22,12 @@ public class PresentationAvecSpring {
 		// on demande de spring de lire le fichier 
 		ClassPathXmlApplicationContext context =
 				new ClassPathXmlApplicationContext 
-				(new String[] {"/applicationContext.xml"}); 
+				(new String[] {"applicationContext.xml"}); 
 		// on demande à spring ("donne moi un objet metier)
 		IMetier metier = (IMetier) context.getBean("metier");
 		System.out.println(metier.calcul());
+		// pour modifier l'implementation il suffis de remplacer l'implementation
+		
 		
 	}
 
