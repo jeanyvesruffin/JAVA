@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TP16_IOC_1
+Bundle-SymbolicName: TP16_IOC_1
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: TP16_IOC_1
+Bundle-RequiredExecutionEnvironment: JavaSE-13
