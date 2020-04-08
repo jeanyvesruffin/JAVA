@@ -4,4 +4,4 @@ Bundle-Name: TP11_JDBC_ORM
 Bundle-SymbolicName: TP11_JDBC
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: TP11_JDBC_ORM
-Bundle-RequiredExecutionEnvironment: JavaSE-13
+Bundle-RequiredExecutionEnvironment: JavaSE-14

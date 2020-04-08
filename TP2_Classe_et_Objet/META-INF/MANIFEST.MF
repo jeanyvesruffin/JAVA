@@ -4,4 +4,4 @@ Bundle-Name: TP2_Classe_et_Objet
 Bundle-SymbolicName: TP2_Classe_et_Objet
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: TP2_Classe_et_Objet
-Bundle-RequiredExecutionEnvironment: JavaSE-13
+Bundle-RequiredExecutionEnvironment: JavaSE-14

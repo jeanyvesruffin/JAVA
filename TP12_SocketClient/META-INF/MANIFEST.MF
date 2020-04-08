@@ -4,4 +4,4 @@ Bundle-Name: TP12_SocketClient
 Bundle-SymbolicName: TP12_SocketClient
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: TP12_SocketClient
-Bundle-RequiredExecutionEnvironment: JavaSE-13
+Bundle-RequiredExecutionEnvironment: JavaSE-14

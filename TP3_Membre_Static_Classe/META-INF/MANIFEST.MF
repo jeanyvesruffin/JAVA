@@ -4,4 +4,4 @@ Bundle-Name: TP3_Membre_Static_Classe
 Bundle-SymbolicName: TP3_Membre_Static_Classe
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: TP3_Membre_Static_Classe
-Bundle-RequiredExecutionEnvironment: JavaSE-13
+Bundle-RequiredExecutionEnvironment: JavaSE-14

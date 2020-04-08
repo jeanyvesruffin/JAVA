@@ -4,4 +4,4 @@ Bundle-Name: TP7_Exceptions
 Bundle-SymbolicName: TP7_Exceptions
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: TP7_Exceptions
-Bundle-RequiredExecutionEnvironment: JavaSE-13
+Bundle-RequiredExecutionEnvironment: JavaSE-14

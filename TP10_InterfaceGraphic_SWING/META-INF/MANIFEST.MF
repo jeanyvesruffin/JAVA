@@ -4,4 +4,4 @@ Bundle-Name: TP10_InterfaceGraphic_SWING
 Bundle-SymbolicName: TP10_InterfaceGraphic_SWING
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: TP10_InterfaceGraphic_SWING
-Bundle-RequiredExecutionEnvironment: JavaSE-13
+Bundle-RequiredExecutionEnvironment: JavaSE-14

@@ -4,4 +4,4 @@ Bundle-Name: TP8_Entree_Sortie
 Bundle-SymbolicName: TP8_Entree_Sortie
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: TP8_Entree_Sortie
-Bundle-RequiredExecutionEnvironment: JavaSE-13
+Bundle-RequiredExecutionEnvironment: JavaSE-14
