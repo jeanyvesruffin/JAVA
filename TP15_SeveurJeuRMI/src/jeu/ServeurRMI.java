@@ -24,7 +24,6 @@ public class ServeurRMI {
 			context.rebind("JH", jeuImpl);
 			
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		

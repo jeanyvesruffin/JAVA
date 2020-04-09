@@ -48,7 +48,6 @@ public class Client {
 			socket.close();
 			clavier.close();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

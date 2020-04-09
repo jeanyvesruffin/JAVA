@@ -4,4 +4,4 @@ Bundle-Name: TP13_RMIClient
 Bundle-SymbolicName: TP13_RMIClient
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: TP13_RMIClient
-Bundle-RequiredExecutionEnvironment: JavaSE-13
+Bundle-RequiredExecutionEnvironment: JavaSE-14

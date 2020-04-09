@@ -32,7 +32,6 @@ public class ClientRmi {
 				System.out.println("Solde : "+cpt.getSolde());				
 			}
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

@@ -50,7 +50,6 @@ public class Application {
 			}
 
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			// Pour lever l'erreur: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
 			// Il est necessaire d'ajouter à notre application le fichier .jar du driver ici mysl.jdbc

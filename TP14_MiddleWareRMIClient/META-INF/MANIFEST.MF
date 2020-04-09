@@ -4,4 +4,4 @@ Bundle-Name: TP14_MiddleWareRMIClient
 Bundle-SymbolicName: TP14_MiddleWareRMIClient
 Bundle-Version: 1.0.0.qualifier
 Automatic-Module-Name: TP14_MiddleWareRMIClient
-Bundle-RequiredExecutionEnvironment: JavaSE-13
+Bundle-RequiredExecutionEnvironment: JavaSE-14

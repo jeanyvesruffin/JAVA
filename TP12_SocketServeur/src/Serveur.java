@@ -49,7 +49,6 @@ public class Serveur {
 			// objectOutputStream.writeObject(voiture1);
 			serverSocket.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

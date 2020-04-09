@@ -72,7 +72,6 @@ public class Presentation {
 			// C'est ca l'injection de dependance
 			System.out.println(metier.calcul());
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

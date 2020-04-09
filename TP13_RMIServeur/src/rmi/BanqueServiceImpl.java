@@ -27,19 +27,16 @@ public class BanqueServiceImpl extends UnicastRemoteObject implements IBanqueRem
 
 	@Override
 	public double conversion(double montant) throws RemoteException {
-		// TODO Auto-generated method stub
 		return montant * 11.3;
 	}
 
 	@Override
 	public String test() throws RemoteException {
-		// TODO Auto-generated method stub
 		return "Test";
 	}
 
 	@Override
 	public Compte consulter(int code) throws RemoteException {
-		// TODO Auto-generated method stub
 		return new Compte(code, Math.random()*70000);
 	}
 
