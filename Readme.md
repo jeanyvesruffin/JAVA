@@ -88,6 +88,7 @@ choco install springtoolsuite
 - Spring Tools 3 (standalone Edition) 3.9.12.RELEASE
 - Spring Tools 3 Add-On for Spring Tools 4 3.9.12.RELEASE
 - Spring Tools 4 (aka Spring Tool Suite 4) 4.6.0.RELEASE
+- ResourceBundle Editor
 
 
 *En cours d'édition End with an example of getting some data out of the system or using it for a little demo*
